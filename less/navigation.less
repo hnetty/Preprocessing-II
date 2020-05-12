@@ -1,1 +1,23 @@
 // Navigation Styles here
+
+.nav-styling{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed gray;
+
+    @media @mobile{
+        flex-wrap: wrap;
+        flex-direction: column
+      }
+}
+
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    
+    font-size: 1.5rem;
+    max-width: 100%;
+}
